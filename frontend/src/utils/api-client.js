@@ -5,6 +5,7 @@ export async function client({ endpoint, data, method }) {
     method: method,
     origin: true,
     credentials: "include",
+    mode: 'no-cors',
     body: data ? JSON.stringify(data) : undefined,
     headers: { "Content-Type": "application/json" },
   };
