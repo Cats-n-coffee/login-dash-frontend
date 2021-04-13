@@ -88,7 +88,7 @@ export const BarChart = (props) => {
     <ChartWrapper
       css={`
         height: 100%;
-        max-height: 600px;
+        max-height: 560px;
 
         ${medium} {
           width: 100%;
